@@ -1,14 +1,9 @@
-package org.example.ZZjdbc.test;
+package org.example.ZZJdbc.test;
 
 import lombok.extern.log4j.Log4j2;
-import org.example.ZZjdbc.dominio.ConnectionFactory;
-import org.example.ZZjdbc.dominio.Producer;
-import org.example.ZZjdbc.repository.ProducerRepository;
-import org.example.ZZjdbc.service.ProduceService;
+import org.example.ZZJdbc.dominio.Producer;
+import org.example.ZZJdbc.repository.ProducerRepository;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.List;
 
 @Log4j2
@@ -19,7 +14,7 @@ public class ConnectionFactoryTest01 {
 //                .name("NHK").build();
 
         Producer producer = Producer.builder().name("Studio Deen").build();
-        Producer producerToUpdate = Producer.builder().id(1).name("Studio Deen").build();
+        Producer producerToUpdate = Producer.builder().id(1).name("Studio dalala").build();
 //        ProduceService.save(producer);
 //        ProduceService.delete(4);
 //        ProduceService.update(producerToUpdate);
@@ -27,9 +22,16 @@ public class ConnectionFactoryTest01 {
 //        log.info("Producers: {}", producers);
 
 //        ProduceService.showProducerMetadata();
-        ProduceService.showDriverMetadata();
+//        ProduceService.showDriverMetadata();
+//        ProducerRepository.showTypeScrollWorking();
+//        List<Producer> studioDeen = ProducerRepository.findByNameAndUpdateToUpperCase("Studio Deen");
+//        List<Producer> studioDeen = ProducerRepository.findByNameAndInsertWhereNotFound("Bababba");
+//        log.info("Producer found: {}", studioDeen);
 
 
+//          ProduceService.updatePreparedStatement(producerToUpdate);
+        List<Producer> byNameCallableStatement = ProducerRepository.findByNameCallableStatement("NHK");
+        log.info("Producers: {}", byNameCallableStatement);
 
 
 //        log.info("INFO");

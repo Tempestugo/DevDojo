@@ -1,9 +1,7 @@
-package org.example.ZZjdbc.dominio;
+package org.example.ZZJdbc.dominio;
 
 import lombok.Builder;
 import lombok.Value;
-
-import java.util.Objects;
 
 @Value
 @Builder
