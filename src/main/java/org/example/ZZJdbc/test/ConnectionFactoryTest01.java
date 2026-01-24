@@ -2,7 +2,7 @@ package org.example.ZZJdbc.test;
 
 import lombok.extern.log4j.Log4j2;
 import org.example.ZZJdbc.dominio.Producer;
-import org.example.ZZJdbc.repository.ProducerRepository;
+//import org.example.ZZJdbc.repository.ProducerRepository;
 
 import java.util.List;
 
@@ -30,8 +30,8 @@ public class ConnectionFactoryTest01 {
 
 
 //          ProduceService.updatePreparedStatement(producerToUpdate);
-        List<Producer> byNameCallableStatement = ProducerRepository.findByNameCallableStatement("NHK");
-        log.info("Producers: {}", byNameCallableStatement);
+//        List<Producer> byNameCallableStatement = ProducerRepository.findByNameCallableStatement("NHK");
+//        log.info("Producers: {}", byNameCallableStatement);
 
 
 //        log.info("INFO");
