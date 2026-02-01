@@ -1,4 +1,4 @@
-package org.example.Exercicios.test;
+package org.example.Exercicios.Primeira.test;
 
 public class Test01 {
     static void main(String[] args) {

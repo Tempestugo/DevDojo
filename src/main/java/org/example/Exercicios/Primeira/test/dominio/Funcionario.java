@@ -1,6 +1,4 @@
-package org.example.Exercicios.dominio;
-
-import java.util.TreeSet;
+package org.example.Exercicios.Primeira.test.dominio;
 
 public class Funcionario implements Comparable<Funcionario> {
     private String nome;

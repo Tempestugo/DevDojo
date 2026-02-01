@@ -1,4 +1,4 @@
-package org.example.Exercicios.dominio;
+package org.example.Exercicios.Primeira.test.dominio;
 
 import java.util.List;
 

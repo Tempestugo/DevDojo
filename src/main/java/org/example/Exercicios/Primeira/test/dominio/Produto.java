@@ -1,4 +1,4 @@
-package org.example.Exercicios.dominio;
+package org.example.Exercicios.Primeira.test.dominio;
 
 public class Produto implements Comparable<Produto>{
     private String nome;

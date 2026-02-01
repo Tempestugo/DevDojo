@@ -1,7 +1,6 @@
-package org.example.Exercicios.test;
+package org.example.Exercicios.Primeira.test;
 
-import org.example.Exercicios.dominio.Funcionario;
-import org.example.Exercicios.dominio.Pessoa;
+import org.example.Exercicios.Primeira.test.dominio.Pessoa;
 
 import java.util.*;
 

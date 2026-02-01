@@ -1,6 +1,6 @@
-package org.example.Exercicios.test;
+package org.example.Exercicios.Primeira.test;
 
-import org.example.Exercicios.dominio.Pedido;
+import org.example.Exercicios.Primeira.test.dominio.Pedido;
 
 import java.util.Comparator;
 
