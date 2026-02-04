@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 
 public class PersonService {
     public boolean isAdult(Person person) {
-        // O teste exige que lance IllegalArgumentException se for null
         if (person == null) {
             throw new IllegalArgumentException();
         }
